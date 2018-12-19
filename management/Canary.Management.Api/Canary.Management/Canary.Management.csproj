@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rocket.Engine" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Canary.HaProxy\Canary.HaProxy.csproj" />
+    <ProjectReference Include="..\Canary.Kubernetes\Canary.Kubernetes.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,6 +1,6 @@
 # AKS-test-releases
 
-# The Nginx ingress for now has this functionality built in!
+# The Nginx ingress now has this functionality built in!
 
 This is an example of how you can use HA proxy to conditionally route traffic to different versions of an application. This is especially useful when conducting A/B testing, canary testing or blue/green deployments. 
 
